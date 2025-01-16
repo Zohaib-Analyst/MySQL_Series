@@ -22,8 +22,8 @@ last_name,
 age,
 CASE
 	When age <= 30 Then 'Young'
-    When age between 30 and 50 Then 'Old'
-    When age >= 50 Then 'On Death Door'
+    	When age between 30 and 50 Then 'Old'
+    	When age >= 50 Then 'On Death Door'
 END As age_bracket
 from employee_demographics;
 
@@ -38,7 +38,7 @@ last_name,
 salary,
 Case
 	When Salary < 50000 Then salary * 0.5
-    When Salary > 50000 Then salary * 0.7
+	When Salary > 50000 Then salary * 0.7
 End as new_salary,
 Case
 	When dept_id = 6 Then salary * 0.10
