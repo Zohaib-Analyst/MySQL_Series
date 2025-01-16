@@ -12,7 +12,7 @@ from employee_salary;
 
 -- By default Union is Distinct which means it will only display distinct values. If we want duplicate values as well we will use Union ALL
 
- Select first_name, last_name
+Select first_name, last_name
 from employee_demographics
 UNION ALL
 Select first_name, last_name
