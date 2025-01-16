@@ -1,5 +1,5 @@
 -- MySQL JOINS--
--- With JOINS we combine two or more columns together if they have same columns. The columns may have same names or contain same type of data
+-- With JOINS we combine two or more tables together if they have same columns. The columns may have same names or contain same type of data
 
 -- INNER JOIN--
 -- One of the most common and simple Join which returns rows that are same from both columns in both tables. 
