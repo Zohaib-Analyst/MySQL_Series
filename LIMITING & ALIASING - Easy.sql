@@ -1,6 +1,6 @@
 -- MySQL LIMIT-- 
--- In mysql LIMIT is used to specify the number of rows that we want to be retrieved in our querry. 
--- At the end of our querry we will type in LIMIT and then the number of row we want to extract. For example, 4 and run a querry
+-- In mysql LIMIT is used to specify the number of rows that we want to be retrieved in our query. 
+-- At the end of our query we will type in LIMIT and then the number of row we want to extract. For example, 4 and run a query
 
 Select *
 from employee_demographics
